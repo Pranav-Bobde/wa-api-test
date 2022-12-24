@@ -9,7 +9,7 @@
       color="white"
       text-color="black"
       label="Standard"
-      @click="() => sendMsg('+919370892274', 'Hello World')"
+      @click="() => sendMsg('+919404879730', 'Hello World')"
     />
   </q-page>
 </template>
