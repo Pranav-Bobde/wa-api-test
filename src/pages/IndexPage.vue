@@ -1,15 +1,10 @@
 <template>
   <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    />
     <q-btn
       color="white"
       text-color="black"
-      label="Standard"
-      @click="() => sendMsg('+919404879730', 'Hello World')"
+      label="Sign In via Whatsapp"
+      @click="() => sendMsg('+919404879730', 'Hey can you help me sign in?')"
     />
   </q-page>
 </template>
@@ -43,7 +38,6 @@ export default defineComponent({
           console.log("error", error);
         }
       })();
-      // take the user to whatsapp and open the chat with the number
 
       return url;
     },
